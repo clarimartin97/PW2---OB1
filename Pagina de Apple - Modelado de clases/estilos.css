@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner {
+    height: 18vh;
+    background-color: rgb(61, 60, 60);
+}
+
+.banner2>img {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+nav {
+    float: right;
+}
+
+.banner .logo {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.inicio {
+    background-image: url(img/banner.png);
+    background-position: center center;
+    background-position-x: center;
+    height: 50vh;
+}
+
+
+.inicio h1 {
+    padding: 130px;
+    font-size: 40px;
+    text-align: right;
+    align-items: right;
+}
+
+
+.opciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+
+}
+
+.opciones article {
+    width: 23%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 2px rgba(247, 243, 243, 0.2);
+    padding: 2em;
+}
+
+.opciones article h2 {
+    text-align: center;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+.opciones article img {
+    width: 50%;
+}
+
+.opciones article a {
+    text-align: center;
+    color: blue;
+    font-weight: bolder;
+    padding: 1em;
+    text-decoration: none;
+    margin-top: 0.8em;
+    width: 50%;
+}
+
+
+#btnAgregarProducto {
+    align-items: center;
+    margin-left: 10em;
+    width: 10%;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    height: -webkit-fill-available;
+    margin-bottom: 2em;
+}
+
+#btnAgregarProducto:hover {
+    background-color: #ccc;
+    border: #efefef;
+    cursor: pointer;
+}
+
+#tienda-productos {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    text-align: -webkit-center;
+}
+
+
+.filter h4 {
+    margin-top: 6em;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.cajita {
+    width: 100%;
+    align-items: center;
+    align-self: center;
+}
+
+form {
+    width: 90%;
+}
+
+form h2 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+form div {
+    margin: 2em;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+form input {
+    width: 30%;
+    height: 19px;
+}
+
+form select {
+    font-size: 1em;
+
+}
+
+.filter>select {
+    width: 64%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+}
+
+footer {
+    height: 10vh;
+    background-color: rgb(61, 60, 60);
+    text-align: center;
+    align-items: center;
+}
+
+footer p {
+    align-items: center center;
+    padding: 1.5em;
+}
+
+.contenedorFiltrado {
+    display: flex;
+    align-items: center;
+
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    width: 21%;
+    margin-left: 1em;
+    margin-bottom: 1em;
+
+}
+
+.box {
+    display: inline-block;
+    width: 70%;
+}
+
+.box>div {
+    display: flex;
+}
+
+article>img {
+    width: 100%;
+}
+
+div#box {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+article {
+    justify-content: center;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+

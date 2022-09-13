@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="eS">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Productos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="banner">
+        <a href="index.html" class="logo"><img src="img/iconoApple.png" alt=""></a>
+        <nav>
+            <a href="tienda.html">Tienda</a>
+            <a href="agregarProductos.html">Agregar Productos</a>
+        </nav>
+    </div>
+
+    <form action="....php" method="get">
+        <h2>Agregar producto</h2>
+
+        <div class="cajita">
+
+            <div>
+                <label for="txtNombreIngresado">Nombre de quien ingresa el nuevo producto:</label>
+                <input type="text" id="txtNombreIngresado">
+            </div>
+            <div>
+                <label for="diferenciarDispositivo">Seleccione cual de los dispositivos que ofrecemos quiere
+                    agregar</label>
+                <select name="diferenciarDispositivo" id="diferenciarDispositivo">
+                    <option value="seleccione" disabled selected>Seleccione un dispositivo a agregar</option>
+                </select>
+            </div>
+            <div>
+                <label for="memoria">Seleccione la capacidad</label>
+                <select name="" id="memoria">
+                </select>
+            </div>
+
+            <div>
+                <label for="describirDispositivo">Describa el dispositivo. Marcas, estado de pantalla, accesorios con
+                    que ingresa</label>
+                <input type="text" name="describirDispositivo" id="describirDispositivo">
+            </div>
+
+            <div>
+                <label for="modelo">Seleccione el modelo del dispositivo que desea agregar</label>
+                <select name="modelo" id="modelo">
+                </select>
+            </div>
+
+            <div>
+                <label for="color">Seleccione el color del dispositivo que desea agregar</label>
+                <select name="color" id="color">
+                </select>
+            </div>
+            <div>
+                <label for="txtPrecio">Precio</label>
+                <input type="text" id="txtPrecio">
+            </div>
+            <div id="caracteristicasiPhone">
+                <label for="cargador">Cargador</label>
+                <select name="cargador" id="cargador">
+                </select>
+            </div>
+            <div id="caracteristicasiPhone2">
+                <label for="cantidadDeSims">Cantidad de Sim</label>
+                <select name="cantidadDeSims" id="cantidadDeSims">
+                </select>
+            </div>
+            <div id="caracteristicasiPad">
+                <label for="conectividad">Tipo de conectividad</label>
+                <select name="conectividad" id="conectividad">
+                </select>
+            </div>
+            <div id="caracteristicasMac">
+                <label for="tipo">Tipo de equipo</label>
+                <select name="tipo" id="tipo">
+                </select>
+            </div>
+            <p id="mensaje"></p>
+        </div>
+
+        <input id="btnAgregarProducto" type="button" value="Agregar">
+    </form>
+
+    <div class="banner2">
+        <img src="/Primer entrega/Entrega Programacion - Clara Martin/Pagina de Apple - Modelado de clases/img/banner.png"
+            alt="" srcset="">
+    </div>
+
+    <h2 id="tienda-productos">Tienda</h2>
+
+    <div class="contenedorFiltrado">
+        <div class="filter">
+            <label for="filtroDeDispositivo">Dispositivos</label>
+            <select name="Fdispositivo" id="filtroDeDispositivo">
+                <option value="Todos">Todos</option>
+            </select>
+
+            <label for="filtroDeModelo">Modelo</label>
+            <select name="Fmodelos" id="filtroDeModelo">
+                <option value="Todos">Todos</option>
+            </select>
+
+            <label for="filtroDeColor">Color</label>
+            <select name="Fcolor" id="filtroDeColor">
+                <option value="Todos">Todos</option>
+            </select>
+        </div>
+
+        <div id="box">
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright © 2022 Apple Inc. All rights reserved.</p>
+    </footer>
+
+    <script src="codigo.js"></script>
+    <script src="agregarProductos.js" type="module"></script>
+</body>
+
+</html>
